@@ -20,7 +20,7 @@ public class SimpleCalculatorTest {
     }
     
     @Before
-    public void setUp()throws Exception {
+    public void setUp() {
         simpleCal = new SimpleCalculator();
     }
     
@@ -36,23 +36,13 @@ public class SimpleCalculatorTest {
         assertEquals(40, c);
       
     }
-    
-   @Test
-    public void addingMultipleNumbersProducesResult() throws Exception {
-
-
-        int answer = simpleCal.addNumbers(1 ,2, 3);
-
-        assertEquals(6, answer);
-    }
-
-    @Test
-    public void addingSingleNumberTotalsAppropriately() throws Exception {
-
-        int answer = simpleCal.addNumbers(1);
-
-        assertEquals(1, answer);
+     @Test
+    public void testdividWithExeption() {
+        int a =20,b=20,c;
+        c= simpleCal.divid(a, b);
+//        assertEquals(40, c);
+assertThrows(Exception.class,()->{simpleCal.divid(4, 0)});
+      
     }
     
 }
-
