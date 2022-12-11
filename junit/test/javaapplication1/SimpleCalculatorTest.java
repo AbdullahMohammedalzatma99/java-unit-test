@@ -46,3 +46,4 @@ assertThrows(Exception.class,()->{simpleCal.divid(4, 0)});
     }
     
 }
+
