@@ -25,4 +25,8 @@ public class SimpleCalculator {
     
     return number1 + number2;
     }
+      public int divid(int number1, int number2)throws IllegalStateException{
+          if(number2 ==0) throw  new IllegalStateException('number 2 cant be zero ');
+    return number1 / number2;
+    }
 }
