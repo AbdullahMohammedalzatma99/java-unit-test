@@ -4,6 +4,7 @@ JUnit is an open source Unit Testing Framework for JAVA. It is useful for Java D
 Developers who are following test-driven methodology must write and execute unit test first before any code.
 
 Once you are done with code, you should execute all tests, and it should pass. Every time any code is added, you need to re-execute all test cases and makes sure nothing is broken.
+
 2-What is Unit Testing?
 Unit Testing is used to verify a small chunk of code by creating a path, function or a method. The term “unit” exist earlier than the object-oriented era. It is basically a natural abstraction of an object oriented system i.e. a Java class or object (its instantiated form).
 
